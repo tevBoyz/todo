@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@10..48&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>My Todo List</h1>
+      <div class="list-view">
+        <!-- <div class="card">
+          <span>1</span>
+          <p>alskdjalsjkakdlaisjdkalsffanfl</p>
+          <a onclick="deleteItems()"><img src="./delete.svg" alt=""></i></a>
+        </div> -->
+      </div>
+      <div class="input-form">
+        <form id="todo-form" name="todo form">
+          <span
+            style="
+              font-weight: 800;
+              font-family: 'Bricolage Grotesque', sans-serif;
+            "
+            >New task:</span
+          >
+          <input
+            maxlength="30"
+            title="enter a task"
+            id="task"
+            name="task"
+            type="text"
+          />
+          <input id="submit" type="submit" value="Add to list" />
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
